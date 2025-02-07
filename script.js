@@ -1,6 +1,7 @@
 // Data for each day
 const dayData = {
     7: {
+        todayDate: "Feb 07",
         message: "Happy Rose Day Maya!",
         gif: "https://static.toiimg.com/thumb/imgsize-23456,msid-67868345,width-600,resizemode-4/67868345.jpg",
         line: "A rose for the most special person in my life. 🌹",
