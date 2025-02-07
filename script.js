@@ -9,6 +9,7 @@ const dayData = {
         bestNepaliLine: "यो गुलाब जस्तै, तिम्रो माया मेरो जीवन सुगन्ध र सौन्दर्यले भरिन्छ। ❤️"
     },
     8: {
+        todayDate: "Feb 08",
         message: "Happy Propose Day Maya!",
         gif: "https://st1.latestly.com/wp-content/uploads/2022/02/Happy-Propose-Day-gif_1.gif",
         line: "Will you be mine forever? 💍",
