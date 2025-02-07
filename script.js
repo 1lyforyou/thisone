@@ -110,6 +110,7 @@ const dayData = {
 
 
 // Get elements
+const todayDateElement = document.querySelector('.todayDate');
 const messageElement = document.querySelector('.message');
 const gifElement = document.querySelector('.gif');
 const lineElement = document.querySelector('.line');
@@ -130,6 +131,7 @@ document.querySelectorAll('.btn').forEach(button => {
             const data = dayData[day];
 
             // Update display area
+            todayDateElement.textContent = data.todayDate;
             messageElement.textContent = data.message;
             gifElement.src = data.gif;
             lineElement.textContent = data.line;
