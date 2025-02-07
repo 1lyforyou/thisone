@@ -122,38 +122,38 @@ const dayData = {
     }
 };
 
-
 // Get elements
-const dateElement = document.querySelector('.date');
-const messageElement = document.querySelector('.message');
-const gifElement = document.querySelector('.gif');
-const lineElement = document.querySelector('.line');
-const bestLineElement = document.querySelector('.bestLine'); // Corrected variable name
-const bestNepaliLineElement = document.querySelector('.bestNepaliLine'); // Corrected variable name
+const dateElement = document.querySelector('.date'); 
+const messageElement = document.querySelector('.message'); 
+const gifElement = document.querySelector('.gif img');  // Ensure you target the <img> inside .gif
+const lineElement = document.querySelector('.line'); 
+const bestLineElement = document.querySelector('.bestLine'); 
+const bestNepaliLineElement = document.querySelector('.bestNepaliLine'); 
 
 // Get today's date
 const today = new Date();
-const todayDate = today.getDate(); // Get the day of the month (e.g., 7 for Feb 7)
+const todayDate = today.getDate();
+const todayMonth = today.getMonth() + 1; // Months are 0-indexed, so February is 1
 
 // Add event listeners to buttons
-document.querySelectorAll('.btn').forEach(button => {
+document.querySelectorAll('.date-btn').forEach(button => {
     button.addEventListener('click', () => {
-        const day = parseInt(button.getAttribute('data-day')); // Get the day from the button
+        const day = parseInt(button.textContent.replace("Feb ", "")); // Extract the day from button text
 
         // Check if the clicked day is today
-        if (day === todayDate) {
+        if (day === todayDate && todayMonth === 2) { // Ensure it's February
             const data = dayData[day];
 
             // Update display area
-            dateElement.textContent = data.date;
+            dateElement.innerHTML = data.date; // Use innerHTML to display the button properly
             messageElement.textContent = data.message;
-            gifElement.src = data.gif;
+            gifElement.setAttribute("src", data.gif);
             lineElement.textContent = data.line;
-            bestLineElement.textContent = data.bestLine; // Update bestLine
-            bestNepaliLineElement.textContent = data.bestNepaliLine; // Update bestNepaliLine
+            bestLineElement.textContent = data.bestLine;
+            bestNepaliLineElement.textContent = data.bestNepaliLine;
         } else {
             // Show "Not Today" alert
-            alert("Sorry Maya,This is not today");
+            alert("Sorry Maya, This is not today.");
         }
     });
 });
