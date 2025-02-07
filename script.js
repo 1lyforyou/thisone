@@ -1,6 +1,7 @@
 // Data for each day
 const dayData = {
     7: {
+        date: "<button class="">Feb 07</button>",
         message: "Happy Rose Day Maya!",
         gif: "https://static.toiimg.com/thumb/imgsize-23456,msid-67868345,width-600,resizemode-4/67868345.jpg",
         line: "A rose for the most special person in my life. 🌹",
@@ -109,6 +110,7 @@ const dayData = {
 
 
 // Get elements
+const dateElement = document.querySelector('.date');
 const messageElement = document.querySelector('.message');
 const gifElement = document.querySelector('.gif');
 const lineElement = document.querySelector('.line');
@@ -129,6 +131,7 @@ document.querySelectorAll('.btn').forEach(button => {
             const data = dayData[day];
 
             // Update display area
+            dateElement.textContent = data.date;
             messageElement.textContent = data.message;
             gifElement.src = data.gif;
             lineElement.textContent = data.line;
@@ -136,7 +139,7 @@ document.querySelectorAll('.btn').forEach(button => {
             bestNepaliLineElement.textContent = data.bestNepaliLine; // Update bestNepaliLine
         } else {
             // Show "Not Today" alert
-            alert("Sorry Maya, Not Today");
+            alert("Sorry Maya,This is not today");
         }
     });
 });
