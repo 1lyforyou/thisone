@@ -37,8 +37,8 @@ const dayData = {
         message: "Happy Promise Day Maya!",
         gif: "https://media.tenor.com/WT4J27Vw0GgAAAAM/promise-sumitjaat.gif",
         line: "I promise to always be by your side. 🤝",
-        bestLine: "No matter what happens, I promise to love and cherish you forever.",
-        bestNepaliLine: "जुनसुकै परिस्थिति आए पनि, म तिमीलाई सधैं प्रेम गर्ने वाचा गर्छु। ❤️"
+        bestLine: "I promise to stand by your side in every joy and sorrow, to hold your hand through all ups and downs, and to cherish you forever. No matter the distance or time, my love for you will never fade. I vow to support your dreams, respect your choices, and be your strength in tough times. You are my heart’s truest desire, and I promise to love you endlessly. Happy Promise Day, my love!",
+        bestNepaliLine: "म तिमीलाई हरेक खुसी र दुःखमा साथ दिने वाचा गर्छु, जीवनका आरोह-अवरोहमा तिम्रो हात समात्नेछु, र तिमीलाई सधैं माया गर्नेछु। दूरी वा समय जेसुकै होस्, तिमीप्रतिको मेरो माया कहिल्यै कम हुने छैन। म तिम्रा सपनाहरूको समर्थन गर्ने, तिम्रा निर्णयहरूको सम्मान गर्ने, र कठिन समयमा तिम्रो बलियो साथ बन्ने वाचा गर्छु। तिमी नै मेरो हृदयको साँचो चाहना हौ, र म तिमीलाई सधैं माया गर्ने वाचा गर्छु। ❤️"
     },
     12: {
         todayDate: "Feb 12",
