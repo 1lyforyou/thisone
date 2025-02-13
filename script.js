@@ -62,7 +62,7 @@ const dayData = {
         gif: "https://i.pinimg.com/originals/1d/de/6f/1dde6fbfe54010cdc054ec47998311ae.gif",
         line: "You are my forever Valentine. ❤️",
         bestLine: "Loving you is the best decision I have ever made in my life!",
-        bestNepaliLine: "तिमी मेरो जीवनको सबैभन्दा सुन्दर निर्णय हौ, मेरो सधैंको भ्यालेन्टाइन! ❤️"
+        bestNepaliLine: "तिमी बिना मेरो संसार अधुरो छ, तिम्रो मुस्कान बिना मेरो दिन निरस छ। तिमी मेरो मनको त्यो गीत हौ, जसले मेरो हरेक धड्कनमा प्रेम भर्छ। तिमी मेरो जिन्दगीको त्यो सपनाजस्तै हौ, जुन म प्रत्येक दिन पूरा गर्न चाहन्छु। म तिमीलाई माया गर्छु, हरेक दिन, हरेक क्षण, र हरेक साससँगै। मेरो हृदयको धड्कन तिमी नै हौ, अनि मेरो जीवनको रोशनी पनि तिमी नै। ❤️ My world is incomplete without you, and my day feels empty without your smile. You are the song in my heart that fills every heartbeat with love. You are like the dream of my life that I wish to fulfill every single day. I love you, every day, every moment, and with every breath. You are the heartbeat of my heart and the light of my life."
     },
     15: {
         todayDate: "Feb 15",
